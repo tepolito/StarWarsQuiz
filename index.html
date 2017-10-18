@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Star Wars Quiz!!</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+
+		<header role="banner">
+			<h1>Star Wars Quiz</h1>
+		</header>
+
+		<main>
+			<div class="intro">
+				<h2 class="into-title js-into-title">Welcome to the Star Wars Quiz App!!</h2>
+				<p class="intro-info js-intro-info">This app will quiz you on your knowledge of Star Wars. It is pretty straight
+					forward. Once you click begin you will be promted with a question. Click on the answer you believe to be correct. The app will tell you if you got it right or wrong then update your score accordingly. When you are ready for the next question hit the next button and you will recieve a new question. At the very end, hit the reset button to give it another try if so desired.</p>
+				<button type="button" class="start"> Begin Quiz!</button>	
+			</div>
+
+			<div class="question">
+				<h2 class="question-text js-question-text">A Question Will Be Here</h2>
+
+				<div class="picture">
+					<img class="js-picture" src="https://aa1a5178aef33568e9c4-a77ea51e8d8892c1eb8348eb6b3663f6.ssl.cf5.rackcdn.com/p/full/1bf9bf86-a3fa-4399-bd63-cb098eb0bc7e.jpg" alt="A bounty hunter pointing a gun">
+				</div>
+
+				<form class="answers js-answers">
+					<label for="a-answer">A.)</label>
+					<button type="button" class="answer-a but-answer"><span class="a-answer">Text Here</span></button>
+					<label for="b-answer" >B.)</label>
+					<button type="button" class="answer-b but-answer"><span class="b-answer">Text Here</span></button>
+					<label for="c-answer">C.)</label>	
+					<button type="button" class="answer-c but-answer"><span class="c-answer">Text Here</span></button>
+					<label for="d-answer">D.)</label>	
+					<button type="button" class="answer-d but-answer"><span class="d-answer">Text Here</span></button>		
+				</form>
+
+				<div class="correct-answer">
+					<span class="correct-answer-text"></span>
+				</div>
+
+				<div class="score">
+					<span class="score-text"></span>
+				</div>
+
+				<div class="question-tracker">
+					<span class="question-tracker-text"></span>
+				</div>
+
+				<div class="next">
+					<button type="button" class="js-next">Next</button>
+				</div>
+
+			</div>
+
+			<div class="finish">
+				<span class="finsish-text"></span>
+			</div>
+
+			<div class='reset'>
+				<button type='button' class='reset-button'>Reset</button>
+			</div>
+		</main>
+	
+	</body>
+
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+  	<script type="text/javascript" src="index.js"></script>
+	</html>	

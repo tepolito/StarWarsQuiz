@@ -1,0 +1,38 @@
+html{
+	background-image: url("https://ak0.picdn.net/shutterstock/videos/15225580/thumb/2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+main{
+	background-color: gold;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	background-color: gold;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+img{
+	width: 80%;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.correct{
+	color: green;
+}
+
+.incorrect{
+	color: red;
+}
